@@ -8,15 +8,19 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
     <link href="assets/css/font-awesome.css" rel="stylesheet" />
-        <!-- CUSTOM STYLES-->
+     <!-- CUSTOM STYLES-->
     <link href="assets/css/custom.css" rel="stylesheet" />
      <!-- GOOGLE FONTS-->
-   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"   type="text/css"/''
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'   type='text/css' />
+   <!--[if lt IE 7]>
+   <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
+   <![endif]-->
+
    <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-      <![endif]-->
+   <!--[endif] -->
 </head>
 <body>    
     <div id="wrapper">
@@ -28,12 +32,12 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                  <div class="navbar-brand" href="#">
-                <a href="#Aplicações"><img src="assets/img/logo.png" border="black" /></a> 
-              </div>
+                  <div class="navbar-brand" href="index.html">
+                <a href="index.html"><img src="assets/img/LOGO_FCP.png" alt="logo" border="black"/></a> 
+              </div> 
            </div>
          <span class="logout-spn" >
-       <a href="#" style="color:#F1F1F1;">SAIR</a>  
+       <a href="#" style="color:#F1F1F1;"><i class="fa fa-cog"></i>SAIR</a>  
      </span>
    </div>
  </div>
@@ -43,29 +47,45 @@
                 <ul class="nav" id="main-menu">                
                     
                     <li class="active-link" id="Aplicações">
-                        <a href="blank.html" ><i class="fa fa-desktop "></i>Aplicações<span class="badge"></span></a>
+                        <a href="index.html" ><i class="fa fa-desktop "></i>Aplicações<span class="badge"></span></a>
                     </li>
+
                     <li>
-                        <a href="blank.html"><i class="fa fa-table "></i>Escritório<span class="badge"></span></a>
+                        <a href="planilhas.html"><i class="fa fa-bar-chart-o "></i>Planilhas<span class="badge"></span></a>
                     </li>
+
                     <li>
-                        <a href="#"><i class="fa fa-edit "></i>Planilhas<span class="badge"></span></a>
+                        <a href="tabelas.html"><i class="fa fa-table "></i>Tabelas<span class="badge"></span></a>
                     </li>
+
                     <li>
-                        <a href="#"><i class="fa fa-qrcode "></i>Aplicação 00</a>
+                        <a href="listas.html"><i class="fa fa-list-alt "></i>Listas</a>
                     </li>
+
                     <li>
-                        <a href="#"><i class="fa fa-bar-chart-o"></i>Aplicação 01</a>
+                        <a href="programacao.html"><i class="fa fa-file-code-o "></i>Programação</a>
                     </li>
+
                     <li>
-                        <a href="#"><i class="fa fa-edit "></i>Aplicação 02</a>
+                        <a href="email.html"><i class="fa fa-envelope-o "></i>Email</a>
                     </li>
+
                     <li>
-                        <a href="#"><i class="fa fa-table "></i>Aplicação 03</a>
+                        <a href="suporte.html"><i class="fa fa-fax"></i>Suporte</a>
                     </li>
+
                     <li>
-                        <a href="#"><i class="fa fa-edit "></i>Aplicação 04</a>
-                    </li>                   
+                        <a href="word.html"><i class="fa fa-file-word-o "></i>Word</a>
+                    </li> 
+
+                    <li>
+                    	<a href="excel.html"><i class="fa fa-file-excel-o"></i>Excel</a>
+                    </li>
+
+                    <li>
+                    	<a href="powerpoint.html"><i class="fa fa-file-powerpoint-o"></i>PowerPoint</a>
+                    </li>
+
                 </ul>
             </div>
 
@@ -87,107 +107,104 @@
                       </div>
                     </div>
                 </div>
-                  <!-- /. ROW - ICONS CENTER --> 
-                     <div class="row text-center pad-top">
-                      <div class="div-square">
-                       <a href="blank.html" >
-                        <i class="fa fa-users fa-5x"></i>
-                          <h4>Usuários</h4>
+                  <!-- /. ICONS CENTER --> 
+                     <div class="text-center pad-top">
+                       <div class="div-square">
+                          <a href="blank.html">
+                           <h1><strong>MENU</strong></h1>
                          </a>
                        </div>
                       </div>
+
+                      <div class="text-center col-md-4 ">
+                        <div class="div-clear">
+                          <a href="planilhas.html">
+                            <i class="fa fa-bar-chart-o fa-5x"></i>
+                             <h4>Planilhas</h4>
+                          </a>
+                        </div>
+                      </div>
                       
-                      <div class="row text-center pad-top">
-                        <div class="div-square">
-                         <a href="blank.html">
-                          <i class="fa fa-edit fa-5x"></i>
-                           <h4>Edição</h4>
+                      <div class="text-center col-md-4">
+                        <div class="div-clear">
+                         <a href="tabelas.html">
+                          <i class="fa fa-table fa-5x"></i>
+                           <h4>Tabelas</h4>
                          </a>  
                         </div>
                       </div>
                       
-                      <div class="row text-center pad-top">
-                        <div class="div-square">
-                          <a href="blank.html">
-                           <i class="fa fa-table fa-5x"></i>
-                            <h4>Tabelas</h4>
+                      <div class="text-center col-md-4">
+                        <div class="div-clear">
+                          <a href="listas.html">
+                           <i class="fa fa-list-alt fa-5x"></i>
+                            <h4>Listas</h4>
                           </a>
                         </div>
                       </div>
 
-                      <div class="row text-center pad-top">
-                       <div class="div-square">
-                         <a href="blank.html" >
-                          <i class="fa fa-key fa-5x"></i>
-                           <h4>Admin </h4>
-                         </a>
-                       </div>
-                      </div>  
-                      <div class="row text-center pad-top">
-                        <div class="div-square">
-                          <a href="blank.html">
-                            <i class="fa fa-qrcode fa-5x"></i>
-                             <h4>Qrcode</h4>
-                          </a>
+                      <div class="text-center col-md-4">
+                        <div class="div-clear">
+                          <a href="programacao.html" >
+                            <i class="fa fa-file-code-o fa-5x"></i>
+                             <h4>Programação</h4>
+                           </a>
                         </div>
-                      </div>                                      
-                  
-              <!--    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6"> -->
-                      <div class="row text-center pad-top">
-                        <div class="div-square">
-                          <a href="blank.html" >
-                            <i class="fa fa-comments-o fa-5x"></i>
-                             <h4>Suporte</h4>
+                      </div> 
+                      <div class="text-center col-md-4">
+                        <div class="div-clear">
+                          <a href="email.html" >
+                            <i class="fa fa-envelope-o fa-5x"></i>
+                             <h4>Email</h4>
                            </a>
                         </div>
                       </div>
-                      <!-- ROW ICONS RIGHT AND LEFT-->
-                      <section>
-                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                        <div class="div-square">
-                          <a href="blank.html">
-                            <i class="fa fa-desktop fa-5x"></i>
-                             <h4>Lateral 01</h4>
+
+                      <div class="text-center col-md-4">
+                      	<div class="div-clear">
+                      	  <a href="suporte.html">
+                      		<i class="fa fa-fax fa-5x"></i>
+                      		 <h4>Suporte</h4>
+                      	   </a>
+                      	</div>
+                      </div>
+
+                      <div class="text-center col-md-4">
+                        <div class="div-clear">
+                      	  <a href="word.html">
+                      		<i class="fa fa-file-word-o fa-5x"></i>
+                      		 <h4>Word</h4>
+                      	   </a>
+                      	</div>
+                      </div>
+
+                      <div class="text-center col-md-4">
+                        <div class="div-clear">
+                          <a href="excel.html" >
+                            <i class="fa fa-file-excel-o fa-5x"></i>
+                             <h4>Excel</h4>
                            </a>
-                        </div>                                          
-                      </div>
-
-                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                        <div class="div-square">
-                          <a href="blank.html">
-                            <i class="fa fa-key fa-5x"></i>
-                             <h4>Lateral 02</h4>
-                          </a>
                         </div>
-                      </div>
-                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                        <div class="div-square">
-                          <a href="blank.html">
-                            <i class="fa fa-table fa-5x"></i>
-                             <h4>Lateral 03</h4>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
-                        <div class="div-square">
-                          <a href="blank.html">
-                            <i class="fa fa-comments-o fa-5x"></i>
-                             <h4>Lateral 04</h4>
-                          </a>
-                        </div>
-                      </div>
-                      </section>
+                      </div> 
 
-
+                      <div class="text-center col-md-4">
+                      	<div class="div-clear">
+                      	  <a href="powerpoint.html">
+                      		<i class="fa fa-file-powerpoint-o fa-5x"></i>
+                      		 <h4>PowerPoint</h4>
+                      	  </a>
+                      	</div>
+                      </div>
+                      
                 <!-- /. ROW  --> 
                 <div class="row text-center pad-top"></div>
                 <!-- /. ROW  -->  
                 <div class="row text-center pad-top"></div>
                 <!-- /. ROW  -->  
                 <div class="row text-center pad-top"></div>
-                  <!-- /. ROW  -->          
+                <!-- /. ROW  -->          
                </div>
-                  <!-- /. ROW  --> 
+                <!-- /. ROW  --> 
             </div>
              <!-- /. PAGE INNER  -->
         </div>
@@ -200,8 +217,8 @@
                     &copy;  FCP - Fundação Cultural do Pará |  <a href="http://www.fcp.pa.gov.br/" style="color:#fff;" target="_blank">www.fcp.pa.gov.br</a>
                 </div>
             </div>
-        </div>
-          
+            <div class="row">
+        </div>    
      <!-- /. WRAPPER  -->
     <!-- SCRIPTS - REDUÇÃO DE TEMPO DE ATUALIZAÇÃO-->
     <!-- JQUERY SCRIPTS -->
