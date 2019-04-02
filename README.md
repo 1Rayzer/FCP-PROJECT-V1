@@ -1,8 +1,13 @@
-# FRONT-END DA APLICAÇÃO WEB DESENVOLVIDA PARA USO INSTITUCIONAL DOS FUNCIONARIOS DA FCP.
+# FrontEnd Para o sistema integrado da Fundação Cultural do Estado do Pará.
 
-## Foram utilizado as tecnologias web: JAVASCRIPT, PHP, CSS3, BOOTSTRAP E JQUERY.
+## Foram utilizado as tecnologias web: 
+> JavaScript
+> PHP
+> CSS3
+> BootStrap
+> Jquery.
 
-[PORTAL FCP](http://fcp.pa.gov.br/)
+[Portal da Fundação Cultural do Pará](http://fcp.pa.gov.br/)
 
 
 
